@@ -1,7 +1,4 @@
-# flask-modern-dev
-
-
-***Note ***
+# Note for Programming
 
 export FLASK_APP = namaAplikasi.py
 
