@@ -3,6 +3,7 @@ Example Test For Flask Udemy
 
 
 **Note**
+
 export FLASK_APP = namaAplikasi.py
 
 export FLASK_ENV = development [Untuk mensetting Flask Environtmetn ke mode developement, aktifasi mode debugging]
