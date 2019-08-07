@@ -1,6 +1,14 @@
 <html>
-    <title>Flask Modern Web Development</title>
+    <title>{{judulWebsite}}</title>
     <body>
-        {{title}}
+        
+        <h3>{{header}}</h3>
+
+        {% for item in listBahasaPemrograman %}
+
+        <p>{{ item }}</p>
+
+        {% endfor %}
+
     </body>
 </html>
