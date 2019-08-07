@@ -1,0 +1,9 @@
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-block: 2rem;
+}
+
+h3 {
+    color: red;
+}

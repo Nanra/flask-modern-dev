@@ -1,14 +1,31 @@
 <html>
+    <head>
     <title>{{judulWebsite}}</title>
+    <link rel="stylesheet" href="static/css/main.css" />
+    </head>
+
     <body>
         
-        <h3>{{header}}</h3>
+        <nav>
+        <ul> 
+        <li> <a href=#> Home </a> </li>
+        <li> <a href=#> Profil </a> </li>
+        </ul>
+        <nav>
+
+
+        <img src="static/img/python-logo.png" height="150" width="150"/>
+
+
+        <h3> {{header}} </h3>
 
         {% for item in listBahasaPemrograman %}
 
         <p>{{ item }}</p>
 
         {% endfor %}
+
+        &copy; 2019 by {{header}}
 
     </body>
 </html>
