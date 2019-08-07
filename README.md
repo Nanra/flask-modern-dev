@@ -1,8 +1,7 @@
 # flask-modern-dev
-Example Test For Flask Udemy
 
 
-**Note**
+***Note ***
 
 export FLASK_APP = namaAplikasi.py
 
