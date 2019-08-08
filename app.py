@@ -16,3 +16,7 @@ def hello_world():
     header=title,
     listBahasaPemrograman=listProgrammingLang,
     judulWebsite=webTitle)
+
+
+if __name__ == "__main__":
+    app.run(port=5002)
